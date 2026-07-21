@@ -1,0 +1,13 @@
+alias enva='source .venv/bin/activate'
+alias envd='deactivate'
+alias ls='eza --icons=auto --group-directories-first'
+alias la='eza -a --icons=auto  --group-directories-first'
+alias ll='eza -la --icons=auto  --group-directories-first'
+alias rdd='rdctl shutdown'
+alias rds='rdctl start'
+alias tm='tmux'
+alias grep='grep --color=auto'
+alias tms='~/.tmux/scripts/tmux-sessionizer'
+alias k='kubectl'
+alias git graph='git log --graph --oneline --all'
+alias src="source ~/.zshrc"
